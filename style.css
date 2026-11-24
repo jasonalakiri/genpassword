@@ -1,0 +1,52 @@
+body{
+    background: rgb(235, 169, 61);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    background: rgb(206, 199, 199);
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 22px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 2px rgb( 196, 192, 192, 0.1);
+    transition: box-shadow 0.3s ease, 
+}
+.container:hover{
+    box-shadow: 0px 0x 0px rgb(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 3px;
+}
+label{
+    display: flex;
+    align-items: center;
+    margin: 11px 1px;
+}
+#password{
+    background: rgb(215, 210, 210);
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 4px 0px rgb(0, 0, 0, 0.2);
+}
+#generateBtn{
+    background: rgb(243, 163, 15);
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    color: rgb(27, 24, 24);
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#generateBtn:hover{
+    background: rgb(64, 134, 42);
+}
